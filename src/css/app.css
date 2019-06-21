@@ -1,0 +1,53 @@
+﻿.yrqr{
+	border-radius: 50px;
+}
+.qjjz{
+	position: absolute;transform: translate(-50%,-50%);left: 50%;top: 50%;
+}
+.ybyk{
+		background: #fff;
+		box-shadow: rgba(0, 0, 0, .15) 0 .15rem .5rem, rgba(0, 0, 0, .25) 0 .15rem .5rem
+	
+}
+.center{
+	display: flex;justify-content: center;
+}
+
+  .mu-ripple-demo {
+		position: relative;
+		width: 200px;
+		height: 150px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: 16px;
+		background-color: #fff;
+		border-radius: 4px;
+	}
+	
+	.demo-1 {
+		color: rgba(255, 255, 255, 0.2);
+		border: 1px solid #2196f3;
+	}
+	.blueyy{
+	webkit-box-shadow: 0 2px 1px -1px rgba(22, 7, 243, 0.2), 0 1px 1px 0 rgba(22, 7, 243, 0.2), 0 1px 3px 0 rgba(22, 7, 243, 0.2);
+    box-shadow: 0 2px 1px -1px rgba(22, 7, 243, 0.2), 0 1px 1px 0 rgba(22, 7, 243, 0.2), 0 1px 3px 0 rgba(22, 7, 243, 0.2);
+	}
+	.mu-snackbar{
+		
+	}
+	.mu-appbar-title {
+		/*标题居中*/
+		text-align: center;
+		font-size: 17px;display: flex; justify-content: center ;align-items: center
+	}
+	.jzc{
+		width:100%;height: 100vh;position: absolute;z-index: 20000;
+	}
+	.fgc{
+		width:100%;height: 100vh;position: absolute;z-index: 19998;background: rgba(0, 0, 0, 0.349);
+	}
+	.toast{
+		position: absolute;transform: translate(-50%,-50%);left: 50%;bottom: 15%;border-radius: 5px;background:rgba(0,0,0,0.6);
+		height: 25px;padding: 0px 22px;line-height: 25px;color:#FFFFFF;font-size: 13.5px
+	}

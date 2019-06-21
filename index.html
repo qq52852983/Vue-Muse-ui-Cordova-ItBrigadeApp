@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css">
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=5a21b9801cac081f6473bafdc558c53a"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=G9CTBMbrbGAD9YC816lHydTCjXSBhqDd"></script>
+	<script type="text/javascript">
+			document.addEventListener("deviceready",onDeviceReady,false);
+            //Cordova加载完成会触发
+            function onDeviceReady() {
+			alert('cordova加载完成');
+            }
+	</script>
+	<style>
+		body{
+		-webkit-touch-callout: none; /*系统默认菜单被禁用*/
+  -webkit-user-select: none; /*webkit浏览器*/
+  -khtml-user-select: none; /*早起浏览器*/
+  -moz-user-select: none; /*火狐浏览器*/
+  -ms-user-select: none; /*IE浏览器*/
+  user-select: none; /*用户是否能够选中文本*/
+  }
+	</style>
+    <title>xt</title>
+  </head>
+  <body  >
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
